@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	background-color: #97745B;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+header{
+	background-color: #EBE7DF;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+h2, h3{
+		font-family: Caveat Brush, cursive;
+		font-size: 30px;
+		text-indent: 5px;
+
+}
+
+header h1{
+	color: black;
+	font-family: Caveat Brush, cursive;
+}
+
+header img{
+	border-radius: 200px;
+	width: 550px;
+	border: 8px solid #98CDDB;
+}
+
+main {
+	color: white;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px 80px 20px;
+}
+
+h2{
+    font-style: italic;
+    text-indent: 5px;
+}
+
+main img{
+	max-width: 100%;
+	width: 450px;
+    height: 300px;
+    border: 5px solid #98cddb;
+}
+
+p.caption{
+	font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+p.signiture{
+	color: black;
+}
+footer a{
+	color: #97745B;
+}
+footer a:hover{
+	color: black;
+}
+
+footer{
+	background-color: lightgrey;
+	opacity: 100%;
+	color: #97745B;
+	padding: 10px 0 10px 20px;
+	text-align: center;
+	}
