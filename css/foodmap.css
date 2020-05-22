@@ -12,12 +12,6 @@ header{
 	padding-bottom: 10px;
 }
 
-h2, h3{
-		font-family: Caveat Brush, cursive;
-		font-size: 30px;
-		text-indent: 5px;
-
-}
 
 header h1{
 	color: black;
@@ -30,6 +24,8 @@ header img{
 	border: 8px solid #98CDDB;
 }
 
+/*MAIN ELEMENTS*/
+
 main {
 	color: white;
 	max-width: 1000px;
@@ -39,8 +35,18 @@ main {
 
 h2{
     font-style: italic;
-    text-indent: 5px;
 }
+
+h2, h3{
+		font-family: Caveat Brush, cursive;
+		font-size: 30px;
+		text-indent: 5px;
+}
+
+p.break{
+	padding-bottom: 10px;
+}
+
 
 main img{
 	max-width: 100%;
@@ -55,9 +61,22 @@ p.caption{
     text-align: center;
 }
 
-p.signiture{
+/*Removing hyperlink styling*/
+main a{ 
+	color: inherit; 
+	text-decoration: none;
+}
+
+main a:hover{
+	opacity: 0.5;
+	background-color: lightgrey
 	color: black;
 }
+
+.pointer{
+	cursor: pointer;
+}
+/*FOOTER ELEMENTS*/
 footer a{
 	color: #97745B;
 }
@@ -72,3 +91,7 @@ footer{
 	padding: 10px 0 10px 20px;
 	text-align: center;
 	}
+
+p.signiture{
+	color: black;
+}
