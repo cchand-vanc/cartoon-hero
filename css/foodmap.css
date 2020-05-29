@@ -16,11 +16,12 @@ header{
 header h1{
 	color: black;
 	font-family: Caveat Brush, cursive;
+	font-size: 40px;
 }
 
 header img{
 	border-radius: 200px;
-	width: 550px;
+	width: 350px;
 	border: 8px solid #98CDDB;
 }
 
@@ -50,6 +51,11 @@ p.break{
 
 main img{
 	max-width: 100%;
+    border: 5px solid #98cddb;
+}
+
+main img.aboutimage{
+	max-width: 100%;
 	width: 450px;
     height: 300px;
     border: 5px solid #98cddb;
@@ -75,6 +81,21 @@ main a:hover{
 
 .pointer{
 	cursor: pointer;
+}
+
+/*2 COLUMN LIST*/
+ul.columns {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.columns{ float: left;
+    position: relative;
+    margin-right: 20px;
+}
+
+
 }
 /*FOOTER ELEMENTS*/
 footer a{
